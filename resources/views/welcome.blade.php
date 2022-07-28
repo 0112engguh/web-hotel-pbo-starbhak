@@ -133,7 +133,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <i class="fas fa-expand-arrows-alt"></i>
         </a>
       </li> --}}
-       <h3 class="mr-3 fw-bold">HOTEL HEBAT</h3>
+       <h3 class="mr-3 fw-bold">HOTEL FILTER</h3>
     </ul>
   </nav>
   <!-- /.navbar -->
@@ -238,6 +238,31 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="content">
       <img class="kamar" src="https://images.mgbedbank.com/PROD/MGDocuments/ID10000421/Photos/432549928.jpg" alt="">
 
+      <div class="col-sm-12 mt-5">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Nama Pemesan</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Email</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">No Handphone</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Nama Tamu</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Tipe Kamar</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Konfirmasi Pemesanan</button>
+                        </form>
+                      </div>
       <div class="container mt-4">
         <h1 class="text-dark mt-4" style="font-weight: 900;font-family: 'Poppins', sans-serif; ">Fasilitas</h1>
         <div class="row g-3">
