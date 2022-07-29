@@ -342,9 +342,58 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             </div>
                         </div>
                     </div>
-
                 </div>
+
+                <div class="row mb-2">
+                        <div class="d-flex">
+                            <div class="col-sm-12">
+                                <h1>Tipe Superior</h1>
+                                <h4 class="mt-4">Fasilitas :</h4>
+                                <p>
+                                    <ul>
+                                        <li>Kamar berukuran luas 32 m2</li>
+                                        <li>Kamar mandi shower</li>
+                                        <li>Coffee maker</li>
+                                        <li>AC</li>
+                                        <li>LED TV 32 inch</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="col-sm-12">
+                                <h1>Tipe Deluxe</h1>
+                                <h4 class="mt-4">Fasilitas :</h4>
+                                <p>
+                                    <ul>
+                                        <li>Kamar berukuran luas 45 m2</li>
+                                        <li>Kamar mandi shower dan bathtub</li>
+                                        <li>Coffee maker</li>
+                                        <li>AC</li>
+                                        <li>Sofa</li>
+                                        <li>LED TV 40 inch</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="row mb-2">
+                    <div class="d-flex">
+                            <div class="col-md-10">
+                                <div class="card" style="width: 300px;">
+                                    <img src="{{ asset('gambar/nyaman.jpg') }}" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card" style="width: 300px;">
+                                    <img src="{{ asset('gambar/nyaman.jpg') }}" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
+
+            
         </div>
     </div>
     <!-- /.content -->
