@@ -14,6 +14,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
         .kamar {
             width: 100%;
             height: 400px;
+            margin-top: -50px;
+        }
+
+        .tanggal{
+          margin-top: -40px;
+          width: 90%;
+          background-color: white;
+          margin: -40px auto 40px auto;
+          border
         }
 
     </style>
@@ -137,7 +146,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <i class="fas fa-expand-arrows-alt"></i>
         </a>
       </li> --}}
-    <h3 class="mr-3 fw-bold">HOTEL HEBAT</h3>
+    <h3 class="mr-3 fw-bold" style="font-weight: 700;font-family: 'Poppins', sans-serif;;
+    ">HOTEL HEBAT</h3>
     </ul>
     </nav>
     <!-- /.navbar -->
@@ -238,78 +248,83 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div><!-- /.container-fluid -->
         </div>
         <!-- /.content-header -->
-        
+
         <!-- Main content -->
         <div class="content">
-            <img class="kamar" src="https://images.mgbedbank.com/PROD/MGDocuments/ID10000421/Photos/432549928.jpg"
+            <img class="kamar" src="gambar/header.jpg"
                 alt="">
 
-                <div class="col-md-12">
-             <div class="card-body">
-                <div class="row">
-                    <label class="col-sm-2 col-form-label">Tanggal Chek in</label>
-                    <div class="col-2">
-                      <input type="date" class="form-control" placeholder=".col-3">
-                    </div>
-                    <label class="col-sm-2 col-form-label">Tanggal Chek Out</label>
-                    <div class="col-2">
-                      <input type="date" class="form-control" placeholder=".col-4">
-                    </div>
-                    <label class="col-sm-2 col-form-label">Jumlah Kamar</label>
-                    <div class="col-1">
-                      <input type="text" class="form-control" placeholder="Jumlah Kamar">
-                    </div>
-                    <div class="col-sm-1">
-                        <button type="submit" class="form-control btn btn-primary">Pesan</button>
-                  </div>
-                </div>
-             </div>
-          </div>
-
-         <div class="card card-info">
             <div class="col-md-12">
-                <div class="card-body">
-                    <h2 class="text-center">Tentang Kami</h2><br>
-                    <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-                </div>
-              </div>
-         </div>
-        
-            <h1 class="mb-4 mt-5">Form Pemesanan</h1>
-            <div class="row mb-2">
-                <div class="col-sm-6">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Nama Pemesan</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                                placeholder="Masukan nama pemesan">
+                <div class="card-body border border-secondary rounded tanggal">
+                    <div class="row" style="font-family: 'Poppins', sans-serif;">
+                        <label class="col-form-label">Tanggal Chek in</label>
+                        <div class="col-2">
+                            <input type="date" class="form-control" placeholder=".col-3">
                         </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Email</label>
-                            <input type="text" class="form-control" id="exampleInputPassword1"
-                                placeholder="Masukan alamat email">
+                        <label class="col-form-label">Tanggal Chek Out</label>
+                        <div class="col-2">
+                            <input type="date" class="form-control" placeholder=".col-4">
                         </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">No Handphone</label>
-                            <input type="number" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Masukan no telepon">
+                        <label class="col-sm-2 col-form-label">Jumlah Kamar</label>
+                        <div class="col-1">
+                            <input type="text" class="form-control" placeholder="Jumlah Kamar">
                         </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Nama Tamu</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                                placeholder="Masukan nama tamu">
+                        <div class="col-sm-1">
+                            <button type="submit" class="form-control btn btn-primary">Pesan</button>
                         </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Tipe Kamar</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                                placeholder="Masukan tipe kamar">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Konfirmasi Pemesanan</button>
-                    </form>
+                    </div>
                 </div>
             </div>
-            <div class="container mt-4">
-                <h1 class="text-dark mt-4" style="font-weight: 900;font-family: 'Poppins', sans-serif; ">Fasilitas</h1>
+
+            <div class="card card-info">
+                <div class="col-md-12">
+                    <div class="card-body">
+                        <h2 class="text-center" style="font-family: 'Playfair Display', serif"; font-weight: 600">Tentang Kami</h2><br>
+                        <p class="text-center" style="font-family: 'inherit', sans-serif; font-size: 15px">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                            has survived not only five centuries,  </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h1 class="mb-4 mt-5">Form Pemesanan</h1>
+                <div class="row mb-2">
+                    <div class="col-sm-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Nama Pemesan</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Masukan nama pemesan">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Email</label>
+                                <input type="text" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Masukan alamat email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">No Handphone</label>
+                                <input type="number" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Masukan no telepon">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Nama Tamu</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Masukan nama tamu">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Tipe Kamar</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Masukan tipe kamar">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Konfirmasi Pemesanan</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5">
+                <h1 class="text-dark mt-4" style="font-weight: 600;font-family: 'Poppins', sans-serif; ">Fasilitas</h1>
                 <div class="row g-3">
                     <div class="col-md-4">
                         <div class="news">
@@ -345,55 +360,55 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </div>
 
                 <div class="row mb-2">
-                        <div class="d-flex">
-                            <div class="col-sm-12">
-                                <h1>Tipe Superior</h1>
-                                <h4 class="mt-4">Fasilitas :</h4>
-                                <p>
-                                    <ul>
-                                        <li>Kamar berukuran luas 32 m2</li>
-                                        <li>Kamar mandi shower</li>
-                                        <li>Coffee maker</li>
-                                        <li>AC</li>
-                                        <li>LED TV 32 inch</li>
-                                    </ul>
-                                </p>
-                            </div>
-                            <div class="col-sm-12">
-                                <h1>Tipe Deluxe</h1>
-                                <h4 class="mt-4">Fasilitas :</h4>
-                                <p>
-                                    <ul>
-                                        <li>Kamar berukuran luas 45 m2</li>
-                                        <li>Kamar mandi shower dan bathtub</li>
-                                        <li>Coffee maker</li>
-                                        <li>AC</li>
-                                        <li>Sofa</li>
-                                        <li>LED TV 40 inch</li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                    
-                    <div class="row mb-2">
                     <div class="d-flex">
-                            <div class="col-md-10">
-                                <div class="card" style="width: 300px;">
-                                    <img src="{{ asset('gambar/nyaman.jpg') }}" class="card-img-top" alt="...">
-                                </div>
+                        <div class="col-sm-12">
+                            <h1>Tipe Superior</h1>
+                            <h4 class="mt-4">Fasilitas :</h4>
+                            <p>
+                                <ul>
+                                    <li>Kamar berukuran luas 32 m2</li>
+                                    <li>Kamar mandi shower</li>
+                                    <li>Coffee maker</li>
+                                    <li>AC</li>
+                                    <li>LED TV 32 inch</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <h1>Tipe Deluxe</h1>
+                            <h4 class="mt-4">Fasilitas :</h4>
+                            <p>
+                                <ul>
+                                    <li>Kamar berukuran luas 45 m2</li>
+                                    <li>Kamar mandi shower dan bathtub</li>
+                                    <li>Coffee maker</li>
+                                    <li>AC</li>
+                                    <li>Sofa</li>
+                                    <li>LED TV 40 inch</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row mb-2">
+                    <div class="d-flex">
+                        <div class="col-md-10">
+                            <div class="card" style="width: 300px;">
+                                <img src="{{ asset('gambar/nyaman.jpg') }}" class="card-img-top" alt="...">
                             </div>
-                            <div class="col-md-10">
-                                <div class="card" style="width: 300px;">
-                                    <img src="{{ asset('gambar/nyaman.jpg') }}" class="card-img-top" alt="...">
-                                </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="card" style="width: 300px;">
+                                <img src="{{ asset('gambar/nyaman.jpg') }}" class="card-img-top" alt="...">
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
 
-            
+
         </div>
     </div>
     <!-- /.content -->
