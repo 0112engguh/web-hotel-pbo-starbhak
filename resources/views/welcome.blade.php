@@ -238,11 +238,43 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div><!-- /.container-fluid -->
         </div>
         <!-- /.content-header -->
-
+        
         <!-- Main content -->
         <div class="content">
             <img class="kamar" src="https://images.mgbedbank.com/PROD/MGDocuments/ID10000421/Photos/432549928.jpg"
                 alt="">
+
+                <div class="col-md-12">
+             <div class="card-body">
+                <div class="row">
+                    <label class="col-sm-2 col-form-label">Tanggal Chek in</label>
+                    <div class="col-2">
+                      <input type="date" class="form-control" placeholder=".col-3">
+                    </div>
+                    <label class="col-sm-2 col-form-label">Tanggal Chek Out</label>
+                    <div class="col-2">
+                      <input type="date" class="form-control" placeholder=".col-4">
+                    </div>
+                    <label class="col-sm-2 col-form-label">Jumlah Kamar</label>
+                    <div class="col-1">
+                      <input type="text" class="form-control" placeholder="Jumlah Kamar">
+                    </div>
+                    <div class="col-sm-1">
+                        <button type="submit" class="form-control btn btn-primary">Pesan</button>
+                  </div>
+                </div>
+             </div>
+          </div>
+
+         <div class="card card-info">
+            <div class="col-md-12">
+                <div class="card-body">
+                    <h2 class="text-center">Tentang Kami</h2><br>
+                    <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                </div>
+              </div>
+         </div>
+        
             <h1 class="mb-4 mt-5">Form Pemesanan</h1>
             <div class="row mb-2">
                 <div class="col-sm-6">
