@@ -268,7 +268,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <label class="col-sm-2 col-form-label">Jumlah Kamar</label>
                         <div class="col-1">
                             <input type="text" class="form-control" placeholder="Jumlah Kamar">
-                        </div>
+                        </div> 
                         <div class="col-sm-1">
                             <button type="submit" class="form-control btn btn-primary">Pesan</button>
                         </div>
